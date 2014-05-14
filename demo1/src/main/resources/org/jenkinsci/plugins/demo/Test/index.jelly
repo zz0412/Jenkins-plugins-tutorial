@@ -1,0 +1,11 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <l:layout title="${%Test}">
+    <l:main-panel>
+      <img src="${resURL}${it.iconFileName}" />
+      <h1>哈哈,我是中华草龟!</h1>
+      <img src="${resURL}/plugin/demo1/images/cf1b9d16fdfaaf51ddfbd5858d5494eef01f7aeb.jpg" />
+      <!-- it 代表Test这个类 -->
+    </l:main-panel>
+  </l:layout>
+</j:jelly>
+<!-- 请特别注意资源文件夹和类的关系,目录结构必须符合规则 -->
